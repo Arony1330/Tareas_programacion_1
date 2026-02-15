@@ -6,11 +6,7 @@ num3 = float(input("Ingrese el tercer número: "))
 
 suma = num1 + num2 + num3
 
-# BUG: división incorrecta
-promedio = suma / 2
-
-# Prints de debug
-print("DEBUG -> Suma:", suma)
-print("DEBUG -> Promedio calculado:", promedio)
+# Correccion del bug:
+promedio = suma / 3
 
 print("El promedio es:", promedio)
